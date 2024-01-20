@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+
+}
+body{
+    height: 100vh;
+    background: #181818;
+    font-family: 'Montserrat', sans-serif;
+}
+.Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)), url('https://portafoliojdnarvaez.my.canva.site/images/d3e771a1e57609e854201d7ceae02d28.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.cart{
+    background-color: rgba(255, 255, 255, 0.426); /* Color de fondo blanco semi-transparente */
+    backdrop-filter: blur(5px); /* Desenfoque de 10px */
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 0 1pc;
+    gap: 1pc;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: default;
+}
+.cart section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.cart section div{
+    width: 60%;
+}
+.Qr{
+    width: 10pc;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+.title{
+    font-size: 2.3pc;
+}
+.redes div{
+    display: flex;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5pc;
+}
+.btn{
+    border: 1px solid #111;
+    height: 2.3pc;
+    padding: 0 1pc;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: all ease-in-out .1s;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.btnlleno{
+    border: 1px solid #111;
+    height: 2.3pc;
+    padding: 0 1pc;
+    border-radius: 10px;
+    background-color: #111;
+    color: whitesmoke;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.btn:hover{
+    background-color: #111;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.btnlleno:hover{
+    background-color: transparent;
+    color: #111;
+    cursor: pointer;
+}
+.icons{
+    width: 2pc;
+}
+.sombra{
+    background: linear-gradient(0deg,#181818 0,hsla(0,0%,9%,.987) 1.62%,hsla(0,0%,9%,.951) 3.1%,hsla(0,0%,9%,.896) 4.5%,hsla(0,0%,9%,.825) 5.8%,hsla(0,0%,9%,.741) 7.06%,hsla(0,0%,9%,.648) 8.24%,hsla(0,0%,9%,.55) 9.42%,hsla(0,0%,9%,.45) 10.58%,hsla(0,0%,9%,.352) 11.76%,hsla(0,0%,9%,.259) 12.94%,hsla(0,0%,9%,.175) 14.2%,hsla(0,0%,9%,.104) 15.5%,hsla(0,0%,9%,.049) 16.9%,hsla(0,0%,9%,.013) 18.38%,hsla(0,0%,9%,0) 20%);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section2{
+    height: 270vh;
+    background-image: linear-gradient(172deg,#181818 0,hsla(0,0%,9%,.987) 1.62%,hsla(0,0%,9%,.951) 3.1%,hsla(0,0%,9%,.896) 4.5%,hsla(0,0%,9%,.825) 5.8%,hsla(0,0%,9%,.741) 7.06%,hsla(0,0%,9%,.648) 8.24%,hsla(0,0%,9%,.55) 9.42%,hsla(0,0%,9%,.45) 10.58%,hsla(0,0%,9%,.352) 11.76%,hsla(0,0%,9%,.259) 12.94%,hsla(0,0%,9%,.175) 14.2%,hsla(0,0%,9%,.104) 15.5%,hsla(0,0%,9%,.049) 16.9%,hsla(0,0%,9%,.013) 18.38%,hsla(0,0%,9%,0) 20%), url('./fondo3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    gap: 4pc;
+}
+.container{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1pc;
+    gap: 1pc;
+    cursor: default;
+}
+.About div{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.user{
+    width: 50pc;
+    height: 15pc;
+    border-radius: 50%;
+    background-image: url('https://portafoliojdnarvaez.my.canva.site/images/52b072e1253b4aae17f5929296d0072a.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1pc;
+}
+.Servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1pc;
+    color: whitesmoke;
+    font-size: 2pc;
+}
+.ser1{
+    height: 12pc;
+    width: 20pc;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.374), rgba(0, 0, 0, 0.455)), url('https://portafoliojdnarvaez.my.canva.site/images/17ec1be9bdcda47194d7b58d69afbdb2.jpg');
+    /* background-image: linear-gradient(172deg,#181818 0,hsla(0,0%,9%,.987) 1.62%,hsla(0,0%,9%,.951) 3.1%,hsla(0,0%,9%,.896) 4.5%,hsla(0,0%,9%,.825) 5.8%,hsla(0,0%,9%,.741) 7.06%,hsla(0,0%,9%,.648) 8.24%,hsla(0,0%,9%,.55) 9.42%,hsla(0,0%,9%,.45) 10.58%,hsla(0,0%,9%,.352) 11.76%,hsla(0,0%,9%,.259) 12.94%,hsla(0,0%,9%,.175) 14.2%,hsla(0,0%,9%,.104) 15.5%,hsla(0,0%,9%,.049) 16.9%,hsla(0,0%,9%,.013) 18.38%,hsla(0,0%,9%,0) 20%), url('https://portafoliojdnarvaez.my.canva.site/images/17ec1be9bdcda47194d7b58d69afbdb2.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20pc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out .2s;
+    user-select: none;
+    -webkit-user-drag: none;
+    text-align: center;
+    color: #fff;
+}
+.ser2{
+    height: 12pc;
+    width: 20pc;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.374), rgba(0, 0, 0, 0.455)), url('https://portafoliojdnarvaez.my.canva.site/images/292a3ca0734788cbc3e32268b65efbf8.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20pc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out .2s;
+    user-select: none;
+    -webkit-user-drag: none;
+    text-align: center;
+    color: #fff;
+}
+.ser3{
+    height: 12pc;
+    width: 20pc;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.374), rgba(0, 0, 0, 0.455)), url('https://portafoliojdnarvaez.my.canva.site/images/91648967f8020a3bb0b39532f372c39c.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20pc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out .2s;
+    user-select: none;
+    -webkit-user-drag: none;
+    text-align: center;
+    color: #fff;
+}
+.ser4{
+    height: 12pc;
+    width: 20pc;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.374), rgba(0, 0, 0, 0.455)), url('https://portafoliojdnarvaez.my.canva.site/images/a23abc6976175a9a61dc834d093de562.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20pc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out .2s;
+    user-select: none;
+    -webkit-user-drag: none;
+    text-align: center;
+    color: #fff;
+}
+.ser5{
+    height: 12pc;
+    width: 20pc;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.374), rgba(0, 0, 0, 0.455)), url('https://portafoliojdnarvaez.my.canva.site/images/ef9bce2424ad5fb6d2fb001df73977db.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20pc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out .2s;
+    user-select: none;
+    -webkit-user-drag: none;
+    text-align: center;
+    color: #fff;
+}
+.ser6{
+    height: 12pc;
+    width: 20pc;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.374), rgba(0, 0, 0, 0.455)), url('https://portafoliojdnarvaez.my.canva.site/images/94e7a60162536ed193007ccb2ca894d3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20pc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease-in-out .2s;
+    user-select: none;
+    -webkit-user-drag: none;
+    text-align: center;
+    color: #fff;
+}
+.grid div span{
+    font-size: 2pc;
+    font-weight: bold;
+}
+.grid div:hover{
+    background-size: 21pc;
+    box-shadow: rgb(0, 0, 0) 0px 16px 40px 6px inset;
+}  
+.containerServer{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    gap: 2pc;
+    position: relative;
+} 
+.date{
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 0;
+}
+.containerServer img{
+    width: 50%;
+}
+.containerServer div{
+    width: 50%;
+}
+.containerServer p{
+    font-size: 0.9pc;
+    width: 80%;
+}

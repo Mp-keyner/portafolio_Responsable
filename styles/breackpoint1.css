@@ -1,0 +1,264 @@
+:root {
+  /* Colores */
+  --Fondo: #1e1e1e;
+  --Blanco: #ffffff;
+  --Stroke: #272d2b;
+  --Negro: #0e1010;
+  /* Tamaños */
+  --Grande: 36px;
+  --Mediano: 20px;
+  --Pequeño: 16px;
+  --bold: 400;
+}
+
+/* Container .container */
+.centrar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  gap: 50px;
+}
+
+.Greeting {
+  display: flex;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 95px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--Blanco);
+  color: var(--Negro);
+  margin-top: 164px;
+}
+
+.about_me h1,
+.interest h1,
+.projects h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.about_me p,
+.interest p {
+  width: 445px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.interest_cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+}
+
+.interest_cards article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Stroke);
+  border-radius: 25px;
+  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: var(--Mediano);
+  font-weight: 700;
+  text-align: center;
+  height: 202px;
+}
+
+.project_cards article .image {
+  border: 2px solid var(--Blanco);
+  height: 332px;
+  width: 50%;
+}
+.project_cards article .info_project {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    min-width: 0px;
+  }
+  .about_me {
+    display: grid;
+  }
+  .interest_cards {
+    grid-template-columns: repeat(2, auto);
+  }
+  .project_cards article {
+    display: grid;
+    place-items: center;
+  }
+  .project_cards article .image {
+    width: 100%;
+    order: 1;
+  }
+  .project_cards article .info_project {
+    width: 100%;
+    order: 2;
+  }
+}
+
+/* Extra small */
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+  .about_me {
+    display: grid;
+  }
+  .interest_cards {
+    grid-template-columns: repeat(2, auto);
+  }
+  .project_cards article {
+    display: grid;
+    place-items: center;
+  }
+  .project_cards article .image {
+    width: 100%;
+    order: 1;
+  }
+  .project_cards article .info_project {
+    width: 100%;
+    order: 2;
+  }
+}
+
+/* Small */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .about_me {
+    display: grid;
+  }
+  .interest_cards {
+    grid-template-columns: repeat(2, auto);
+  }
+  .project_cards article {
+    display: flex;
+  }
+  .project_cards article {
+    display: grid;
+    place-items: center;
+  }
+  .project_cards article .image {
+    width: 100%;
+    order: 1;
+  }
+  .project_cards article .info_project {
+    width: 100%;
+    order: 2;
+  }
+}
+
+/* Medium */
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .about_me {
+    display: flex;
+  }
+  .interest_cards {
+    grid-template-columns: repeat(3, auto);
+  }
+  .project_cards article {
+    display: flex;
+  }
+  .project_cards article:nth-child(2) .image {
+    width: 100%;
+    order: 2;
+  }
+  .project_cards article:nth-child(2) .info_project {
+    width: 100%;
+    order: 1;
+  }
+  .project_cards article:nth-child(4) .image {
+    width: 100%;
+    order: 2;
+  }
+  .project_cards article:nth-child(4) .info_project {
+    width: 100%;
+    order: 1;
+  }
+}
+
+/* large */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  .about_me {
+    display: flex;
+  }
+  .interest_cards {
+    grid-template-columns: repeat(3, auto);
+  }
+  .project_cards article {
+    display: flex;
+  }
+  .project_cards article:nth-child(2) .image {
+    width: 100%;
+    order: 2;
+  }
+  .project_cards article:nth-child(2) .info_project {
+    width: 100%;
+    order: 1;
+  }
+  .project_cards article:nth-child(4) .image {
+    width: 100%;
+    order: 2;
+  }
+  .project_cards article:nth-child(4) .info_project {
+    width: 100%;
+    order: 1;
+  }
+}
+
+/* Extra Larga */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1280px;
+  }
+  .about_me {
+    display: flex;
+  }
+  .interest_cards {
+    grid-template-columns: repeat(3, auto);
+  }
+  .project_cards article .image {
+    border: 2px solid var(--Blanco);
+    height: 332px;
+    width: 70%;
+  }
+  .project_cards article .info-project {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  .project_cards article {
+    display: flex;
+  }
+  .project_cards article:nth-child(2) .image {
+    width: 100%;
+    order: 2;
+  }
+  .project_cards article:nth-child(2) .info_project {
+    width: 100%;
+    order: 1;
+  }
+  .project_cards article:nth-child(4) .image {
+    width: 100%;
+    order: 2;
+  }
+  .project_cards article:nth-child(4) .info_project {
+    width: 100%;
+    order: 1;
+  }
+}
