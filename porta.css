@@ -17,7 +17,7 @@ body{
     height: 100vh;
     background-image: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)), url('https://portafoliojdnarvaez.my.canva.site/images/d3e771a1e57609e854201d7ceae02d28.jpg');
     background-size: cover;
-    background-position: top;
+    background-position: top; 
     background-repeat: no-repeat;
 }
 .cart{
@@ -101,37 +101,35 @@ body{
     justify-content: center;
 }
 .section2{
-    height: 270vh;
+    /* height: 270vh; */
     background-image: linear-gradient(172deg,#181818 0,hsla(0,0%,9%,.987) 1.62%,hsla(0,0%,9%,.951) 3.1%,hsla(0,0%,9%,.896) 4.5%,hsla(0,0%,9%,.825) 5.8%,hsla(0,0%,9%,.741) 7.06%,hsla(0,0%,9%,.648) 8.24%,hsla(0,0%,9%,.55) 9.42%,hsla(0,0%,9%,.45) 10.58%,hsla(0,0%,9%,.352) 11.76%,hsla(0,0%,9%,.259) 12.94%,hsla(0,0%,9%,.175) 14.2%,hsla(0,0%,9%,.104) 15.5%,hsla(0,0%,9%,.049) 16.9%,hsla(0,0%,9%,.013) 18.38%,hsla(0,0%,9%,0) 20%), url('./fondo3.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
-    gap: 4pc;
+    gap: 10pc;
 }
 .container{
     width: 70%;
-    height: 60%;
+    /* height: 60%; */
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 1pc;
     gap: 1pc;
     cursor: default;
+    /* border: 1px solid red; */
 }
 .About div{
+    width: 50%;
     display: flex;
     flex-direction: column;
     color: white;
 }
 .user{
-    width: 50pc;
+    width: 15pc;
     height: 15pc;
     border-radius: 50%;
-    background-image: url('https://portafoliojdnarvaez.my.canva.site/images/52b072e1253b4aae17f5929296d0072a.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .grid{
@@ -262,17 +260,16 @@ body{
 .containerServer{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 80%;
     gap: 2pc;
     position: relative;
+    border: 1px solid red;
 } 
-.date{
-    position: absolute;
-    transform: rotate(-90deg);
-    top: 0;
-}
 .containerServer img{
-    width: 50%;
+    user-select: none;
+    -webkit-user-drag: none;
+    width: 30pc;
 }
 .containerServer div{
     width: 50%;
@@ -280,4 +277,10 @@ body{
 .containerServer p{
     font-size: 0.9pc;
     width: 80%;
+}
+.date{
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 38px;
+    left: -53px;
 }
